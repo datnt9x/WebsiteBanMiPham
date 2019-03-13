@@ -216,8 +216,8 @@ $(document).ready(function() {
         
         <!--END ĐĂNG NHẬP-->
        	<div class="hotline">
-        	<div class="ptittle">Hotline:</div><!--ptille-->
-            <div class="pdetail">0868896944 - 0944104004</div><!--pdetail-->
+        	<div class="ptittle">Hotline: </div><!--ptille-->
+            <div class="pdetail"> 0888888888</div><!--pdetail-->
         </div><!--hotline-->
         
         
@@ -698,10 +698,10 @@ $(document).ready(function() {
 	<div class="homeEmail">
     	<div class="container">
         	<div class="connect">
-            	KẾT NỐI VỚI MTL
-                <a title="Facebook Lữ Quí Long" href="https://www.facebook.com/Long.Lee123" rel="nofollow" target="_blank" class="fb"></a>
-                <a title="Google+ Lữ Quí Long" href="https://plus.google.com/u/1/110437871752923052188/posts" rel="nofollow" target="_blank" class="gg"></a>
-                <a title="Youtube Lữ Quí Long" href="https://www.youtube.com/channel/UC57CLyFw6NgFBLzlscQReUg" rel="nofollow" target="_blank" class="ytb"></a>
+            	CONNECT WITH MTL
+                <a title="Facebook" href="https://www.facebook.com/Long.Lee123" rel="nofollow" target="_blank" class="fb"></a>
+                <a title="Google+" href="https://plus.google.com/u/1/110437871752923052188/posts" rel="nofollow" target="_blank" class="gg"></a>
+                <a title="Youtube" href="https://www.youtube.com/channel/UC57CLyFw6NgFBLzlscQReUg" rel="nofollow" target="_blank" class="ytb"></a>
                 <div class="backtop">
     				<b></b>
 				</div><!--end backtop-->
@@ -722,17 +722,17 @@ $(document).ready(function() {
                 
             </ul>
         </div><!--end link-->
-        <div class="link call"> Tổng đài tư vấn bán hàng (7:30 - 22:00) hằng ngày<br/>
-        	<span class="tongtaituphone">0868896944(Long) - 0944104004(Mr Sơn)</span><!--end tongdaituphone--><br/>
-            Điện thoại
-            <span class="tongtaituphone">0868896944(Long) - 0944104004(Sơn)</span><!--end tongdaituphone--><br/>
-            Giải quyết khiếu nại từ (9:00 - 17:00) hằng ngày
-            <span class="tongtaituphone">0868896944(Long) - 0944104004(Sơn)</span><!--end tongdaituphone-->
+        <div class="link call"> Tổng đài tư vấn bán hàng (7:30 - 22:00) hằng ngày:<br/>
+        	<span class="tongtaituphone">0888888888(Mr.Đạt) - 0988888888(Mr.Hải)</span><!--end tongdaituphone--><br/>
+            Điện thoại:
+            <span class="tongtaituphone">0888888888(Mr.Đạt) - 0988888888(Mr.Hải)</span><!--end tongdaituphone--><br/>
+            Giải quyết khiếu nại từ (9:00 - 17:00) hằng ngày:
+            <span class="tongtaituphone">0888888888(Mr.Đạt) - 0988888888(Mr.Hải)</span><!--end tongdaituphone-->
         </div><!--end link call-->
     </div><!--end container footer-->
     <div class="clear"></div><!--end clear-->
-    <div class="footerAdd"> © 2016. Công Ty Mỹ Phẩm MTL<br/>
-    Địa chỉ : 624 âu cơ,quận tân phú,TPHCM .
+    <div class="footerAdd"> © 2019. Công Ty Mỹ Phẩm MTL<br/>
+    Địa chỉ : 144 Xuân Thủy, Cầu Giấy, Hà Nội.
     
     </div><!--end footeradd-->
     <div class="footeraou"></div><!--footeraou-->

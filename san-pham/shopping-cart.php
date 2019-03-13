@@ -212,7 +212,7 @@ $(document).ready(function() {
 		</div><!--end login-->
        	<div class="hotline">
         	<div class="ptittle">Hotline:</div><!--ptille-->
-            <div class="pdetail">0984 114 827 - 0973 367 087</div><!--pdetail-->
+            <div class="pdetail">0888888888</div><!--pdetail-->
             
         </div><!--hotline-->
      </div><!--end container-->
