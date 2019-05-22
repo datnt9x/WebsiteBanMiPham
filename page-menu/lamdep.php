@@ -62,7 +62,7 @@ $(function() {
         </div><!-----end search---->
        	<div class="hotline">
         	<div class="ptittle">Hotline:</div><!--ptille-->
-            <div class="pdetail">0984 114 827 - 0973 367 087</div><!--pdetail-->
+            <div class="pdetail">0362 490 000(Mr Đạt) - 0387 537 799(Mr Hải)</div><!--pdetail-->
             
         </div><!--hotline-->
      </div><!--end container-->
@@ -313,9 +313,9 @@ $(function() {
     	<div class="container">
         	<div class="connect">
             	KẾT NỐI VỚI MTL
-                <a title="Facebook Lữ Quí Long" href="https://www.facebook.com/Long.Lee123" rel="nofollow" target="_blank" class="fb"></a>
-                <a title="Google+ Lữ Quí Long" href="https://plus.google.com/u/1/110437871752923052188/posts" rel="nofollow" target="_blank" class="gg"></a>
-                <a title="Youtube Lữ Quí Long" href="https://www.youtube.com/channel/UC57CLyFw6NgFBLzlscQReUg" rel="nofollow" target="_blank" class="ytb"></a>
+                <a title="Facebook " href="" rel="nofollow" target="_blank" class="fb"></a>
+                <a title="Google+ " href="" rel="nofollow" target="_blank" class="gg"></a>
+                <a title="Youtube " href="" rel="nofollow" target="_blank" class="ytb"></a>
                 <div class="backtop">
     				<b></b>
 				</div><!--end backtop-->
@@ -334,16 +334,15 @@ $(function() {
             </ul>
         </div><!--end link-->
         <div class="link call"> Tổng đài tư vấn bán hàng (7:30 - 22:00) hằng ngày<br/>
-        	<span class="tongtaituphone">0984 114 827(Long) - 0973 367 087(Mẩn)</span><!--end tongdaituphone--><br/>
-            Điện thoại
-            <span class="tongtaituphone">0984 114 827(Long) - 0973 367 087(Mẩn)</span><!--end tongdaituphone--><br/>
+        	<span class="tongtaituphone"> 0387 537 799(Mr Hải)</span><!--end tongdaituphone--><br/>
+            
             Giải quyết khiếu nại từ (9:00 - 17:00) hằng ngày
-            <span class="tongtaituphone">0984 114 827(Long) - 0973 367 087(Mẩn)</span><!--end tongdaituphone-->
+            <span class="tongtaituphone">0362 490 000(Mr Đạt) - 0387 537 799(Mr Hải)</span><!--end tongdaituphone-->
         </div><!--end link call-->
     </div><!--end container footer-->
     <div class="clear"></div><!--end clear-->
-    <div class="footerAdd"> © 2016. Công Ty Mỹ Phẩm MTL<br/>
-    Địa chỉ : 624 âu cơ,quận tân phú,TPHCM .
+    <div class="footerAdd"> © 2019. Công Ty Mỹ Phẩm MTL<br/>
+    Địa chỉ : 144 Xuân Thủy, Cầu Giấy, Hà Nội.
     
     </div><!--end footeradd-->
     <div class="footeraou"></div><!--footeraou-->
