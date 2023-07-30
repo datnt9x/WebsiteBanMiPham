@@ -44,48 +44,44 @@ if (!isset($_SESSION['username'])) {
 	include("../index/connect.php");
 ?>
 <div class="ad_leftbar">
-        <?php
-	if(isset($_POST["btSubmit"]))
-	{
-		$username= $_POST["username"];
-		$password = $_POST["password"];
-		//lam sach thong tin
-		$username = strip_tags($username);
-		$username = addslashes($username);
-		$password = strip_tags($password);
-		$password = addslashes($password);
-		if ($username == "" || $password =="")
-		{
-			echo '<div id="login-box" class="login-popup" style="display:block;left: 563px;top: 315px;">
-				
-				<a href="" class="close"><img src="close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
-				Không được để trống!
-				</div>
-				<div id="mask" style="display:block;opacity: 0.7 !important;background: #000 !important;"></div>';
-		}
-		else
-		{
-			$sql = "select * from account where user_name = '$username' and password = '$password' ";
-			$query = mysqli_query($conn,$sql);
-			$num_rows = mysqli_num_rows($query);
-			if ($num_rows==0) {
-				echo '<div id="login-box" class="login-popup" style="display:block;left: 495px;top: 315px;">
-				<a href="" class="close"><img src="close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
-				Tên đăng nhập hoặc mật khẩu không đúng !
-				</div>
-				<div id="mask" style="display:block;opacity: 0.7 !important;background: #000 !important;"></div>';
+	<?php
+		if(isset($_POST["btSubmit"])) {
+			$username= $_POST["username"];
+			$password = $_POST["password"];
+			//lam sach thong tin
+			$username = strip_tags($username);
+			$username = addslashes($username);
+			$password = strip_tags($password);
+			$password = addslashes($password);
+			if ($username == "" || $password =="") {
+				echo '<div id="login-box" class="login-popup" style="display:block;left: 563px;top: 315px;">
+					
+					<a href="" class="close"><img src="close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+					Không được để trống!
+					</div>
+					<div id="mask" style="display:block;opacity: 0.7 !important;background: #000 !important;"></div>';
 			}
-			else
-			{
-				//tiến hành lưu tên đăng nhập vào session để tiện xử lý sau này
-				$_SESSION['username'] = $username;
-                // Thực thi hành động sau khi lưu thông tin vào session
-                // ở đây mình tiến hành chuyển hướng trang web tới một trang gọi là index.php
-                header('Location: admin/admin.php');
+			else {
+				$sql = "select * from account where user_name = '$username' and password = '$password' ";
+				$query = mysqli_query($conn,$sql);
+				$num_rows = mysqli_num_rows($query);
+				if ($num_rows==0) {
+					echo '<div id="login-box" class="login-popup" style="display:block;left: 495px;top: 315px;">
+					<a href="" class="close"><img src="close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+					Tên đăng nhập hoặc mật khẩu không đúng !
+					</div>
+					<div id="mask" style="display:block;opacity: 0.7 !important;background: #000 !important;"></div>';
+				}
+				else {
+					//tiến hành lưu tên đăng nhập vào session để tiện xử lý sau này
+					$_SESSION['username'] = $username;
+					// Thực thi hành động sau khi lưu thông tin vào session
+					// ở đây mình tiến hành chuyển hướng trang web tới một trang gọi là index.php
+					header('Location: admin/admin.php');
+				}
 			}
 		}
-	}
-?>
+	?>
 <div class="ad_login">
 		<div class="back_index">
         	<a href="../index.php">Quay về trang chủ</a>
